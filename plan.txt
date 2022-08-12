@@ -1,0 +1,13 @@
+The plan
+
+Create a simple app
+
+features:
+    * basic authentication
+    * routing, linking, etc to different pages
+    * form component reuse
+    * data entry
+    * data recall (localstorage, localsession, to json file)
+    * calculations
+    * landing page
+

@@ -11,3 +11,19 @@ features:
     * calculations
     * landing page
 
+proposed components
+    * navbar
+    * footer
+    * buttons
+    * forms
+    * main page
+    * reporting page
+    * invoicing page
+    * property page
+    * check in page
+    * check out page
+    * sign up page
+    * sign in page
+    * partner page
+    * guest page
+    * program page

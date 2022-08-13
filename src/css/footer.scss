@@ -1,0 +1,19 @@
+Footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: inherit;
+    font-size: inherit;
+}
+
+.hoverFooter {
+    font-size: 1.5rem;
+    color: indigo;
+    box-shadow: 5%;
+}

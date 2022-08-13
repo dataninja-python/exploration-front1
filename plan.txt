@@ -4,7 +4,7 @@ Create a simple app
 
 features:
     * basic authentication
-    * routing, linking, etc to different pages
+    * routing, linking, etc to different pages [x]
     * form component reuse
     * data entry
     * data recall (localstorage, localsession, to json file)
@@ -12,8 +12,8 @@ features:
     * landing page
 
 proposed components
-    * navbar
-    * footer
+    * navbar [x]
+    * footer []
     * buttons
     * forms
     * main page

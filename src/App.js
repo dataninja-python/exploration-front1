@@ -1,6 +1,12 @@
+// import utilities
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 
-import Navbar from './NavBar'
+// import components
+import Navbar from './components/NavBar'
+import Footer from './components/Footer'
+
+// import pages
 import Home from './pages/Home'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
@@ -12,16 +18,17 @@ import Invoice from './pages/Invoice'
 import Dash from './pages/Dash'
 import ErrorPage from './pages/ErrorPage'
 
-import { Route, Routes } from 'react-router-dom'
-
-
 function App() {
-
   return (
     <>
-      <Navbar/>
       <div className='container'>
-        <Routes>
+      <Navbar/>
+      <div className='contentWrapper'>
+        <h1>This is the main content page</h1>
+      </div>
+      <Footer />
+
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/signin" element={<SignIn />} />
@@ -33,6 +40,7 @@ function App() {
           <Route path="/invoice" element={<Invoice />} />
           <Route path="/dashboard" element={<Dash />} />
           <Route path="/errorpage" element={<ErrorPage />} />
+          <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </div>
     </>
